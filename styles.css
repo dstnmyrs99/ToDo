@@ -65,3 +65,14 @@ p:hover span{
   width: 20px;
   opacity: 1;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin: 12.5%;
+    width: 75%;
+  }
+  p{
+    font-size: 2em;
+  }
+}
